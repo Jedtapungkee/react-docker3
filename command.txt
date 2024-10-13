@@ -1,0 +1,18 @@
+1. npm install
+2. npm run dev
+3. npm run build
+4.npx serve -s dist 
+npm i serve
+5.docker login 
+6. docker build -t folkky/react-docker-test3:0.1 .
+docker ps
+docker images
+docker ps --all
+7.docker run -d -p 3000:3000 --name react-docker folkky/react-docker-test3:0.1  
+docker stop
+docker rm 
+8.docker push folkky/react-docker-test3:0.1
+
+9.git remote -v
+10.git remote remove origin
+11.git remote add origin https://github.com/Jedtapungkee/react-docker3.git
